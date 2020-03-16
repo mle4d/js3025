@@ -1,0 +1,8 @@
+/* @font-face {
+  font-family: "ApercuProRegular.otf";
+  font-style: normal;
+  src: url(assets/ApercuProRegular.otf) format("truetype");
+} */
+  body {
+    font-family: 'Apercu';
+  }

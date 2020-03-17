@@ -31,15 +31,18 @@ html {
   }
   .five {
     background: #000000;
+    border-radius: 50%;
   }
   .four{
     background: #444444;
+    border-radius: 50%;
   }
   .six {
     background: #f52e74;
   }
   .seven {
     background: #ff9ec0;
+    border-radius: 50%;
   }
   .eight {
     background: #f9548d;
@@ -49,6 +52,7 @@ html {
   }
   .ten {
     background: #138f98;
+    border-radius: 50%;
   }
   .eleven {
     background: #75e3eb;

@@ -1,8 +1,37 @@
-/* @font-face {
-  font-family: "ApercuProRegular.otf";
-  font-style: normal;
-  src: url(assets/ApercuProRegular.otf) format("truetype");
-} */
+html {
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
   body {
-    font-family: 'Apercu';
+    font-family: 'GT Super Display Light';
+    margin: 0;
+  }
+  
+  *, *:before, *:after { 
+    box-sizing: inherit; 
+  }
+
+  div {
+    width: 100%;
+    padding: 105px;
+    float: right;
+  }
+
+  .one {
+    background: #000000;
+  }
+
+  .two {
+    background: #222222;
+  }
+
+  .three {
+    background: #444444;
+  }
+  .five {
+    background: #000000;
+  }
+  .four{
+    background: #444444;
   }

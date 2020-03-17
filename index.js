@@ -7,12 +7,12 @@ function logText(e) {
   console.log(this);
 }
 
-divs.forEach(div => div.addEventListener('click', logText, {
-  capture: false,
-  once: true
+divs.forEach(div => div.addEventListener('click', function() {
+  document.querySelector('.one').classList.toggle('four');
+  document.querySelector('.three').classList.toggle('five');
 }));
 
-button.addEventListener('click', () => {
+divs.addEventListener('click', () => {
   console.log('Click!!!');
 }, {
   once: true
